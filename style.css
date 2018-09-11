@@ -1,0 +1,33 @@
+ body, #root {
+     text-align: center;
+     background-color: #778899;
+ }
+
+ #root form > label{
+    font-size: 30px;
+    display: block;
+    font-weight: bold; 
+
+}
+
+#root form > input{
+    font-size: 20px;
+}
+
+.gitusers div img, a{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+.gitusers div {
+    text-align: center;
+}
+
+.gitusers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #998477;
+}

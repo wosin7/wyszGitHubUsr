@@ -59,7 +59,7 @@ var App = function (_React$Component) {
           React.createElement(
             "label",
             { htmlFor: "searchText" },
-            "Search by user name"
+            "Search by user name:"
           ),
           React.createElement("input", {
             type: "text",
@@ -91,7 +91,7 @@ var UsersList = function (_React$Component2) {
     value: function render() {
       return React.createElement(
         "div",
-        null,
+        { className: "gitusers" },
         this.users
       );
     }
